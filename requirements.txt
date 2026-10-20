@@ -1,0 +1,32 @@
+# core scientific stack
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# medical imaging and data
+nibabel
+monai
+datasets
+huggingface_hub
+
+# language model and adaptation
+transformers
+peft
+accelerate
+
+# 4-bit quantisation for training.
+# NOTE: bitsandbytes needs Linux + CUDA. it will not install on a plain laptop.
+# install it on the GPU machine (VIPER), and skip it for local CPU-only work.
+bitsandbytes
+
+# install torch separately so it matches your CUDA version, for example:
+#   pip install torch --index-url https://download.pytorch.org/whl/cu121
+# check the right command at https://pytorch.org/get-started/locally/
+
+# evaluation and plotting used in the notebook
+nltk
+rouge-score
+bert-score
+scipy
+torchvision

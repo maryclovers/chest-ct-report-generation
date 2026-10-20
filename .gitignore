@@ -1,0 +1,16 @@
+# data stays out of the repo
+*.csv
+*.parquet
+*.nii
+*.nii.gz
+*.dcm
+*.czi
+data/
+outputs/
+# python and notebook clutter
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
+*.pt
+*.pth
+.env
